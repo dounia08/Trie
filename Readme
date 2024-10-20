@@ -1,0 +1,36 @@
+# Tp 1 Trie
+
+Ce projet implémente un trie pour la gestion des mots et des préfixes en utilisant deux structures de données : une matrice et une table de hachage.
+
+## Prérequis
+
+Assurez-vous d'avoir `gcc` (GNU Compiler Collection) installé sur votre système. Vous pouvez l'installer via votre gestionnaire de paquets. Par exemple, sur une distribution Ubuntu/Debian, vous pouvez exécuter :
+
+sudo apt update
+sudo apt install build-essential
+
+## Compilation 
+
+Clonez le dépôt (ou téléchargez les fichiers) sur votre machine.
+Accédez au répertoire du projet :
+ 'cd chemin/vers/le/projet'
+Compilez le projet en exécutant la commande make :
+  `make`
+Cela générera deux exécutables :
+        trie_matrice : Utilise la représentation par matrice du trie.
+        trie_hachage : Utilise la représentation par table de hachage du trie.
+
+#### Exécution
+
+Une fois la compilation terminée, vous pouvez exécuter les programmes :
+Exécuter le Trie avec Matrice
+
+Pour exécuter l'implémentation du trie utilisant une matrice, utilisez :
+
+`./trie_matrice`
+
+Exécuter le Trie avec Hachage
+
+Pour exécuter l'implémentation du trie utilisant une table de hachage, utilisez :
+
+`./trie_hachage`
